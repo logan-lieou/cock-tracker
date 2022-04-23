@@ -11,7 +11,7 @@ export default function Home() {
           <Form.Label>Cock Size</Form.Label>
           <Form.Control type="text" placeholder="Enter cock size" />
           <Form.Text className="text-muted">
-            We'll never share your cock size with anyone else.
+            We will never share your cock size with anyone else.
           </Form.Text>
         </Form.Group>
 
