@@ -10,11 +10,19 @@ about.
 
 ```
 {
-	uuid: jwt,
-	length: l
-	girth: g
+	jwt: uuid,
+	name: string,
+	girth: number,
+	length: number,
+	metric: bool,
 }
 ```
+
+## TODO's
+
+- Unit Select (for now we use cm because that's what our dataset uses)
+- statistics and backend jaja magic
+- presistant database with cock distrobution
 
 ## Getting Started
 

@@ -24,7 +24,7 @@ export default function Home() {
           <hr/>
         <Form>
           <Form.Group className="mb-3" controlId="formBasicEmail">
-            <Form.Label>Cock Size</Form.Label>
+            <Form.Label>Cock Size (cm)</Form.Label>
             <Form.Control type="text" placeholder="Enter cock size" onChange={e => setLength(e.target.value)}/>
             <Form.Text className="text-muted">
               We will never share your cock size with anyone else.
@@ -32,7 +32,7 @@ export default function Home() {
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
-            <Form.Label>Girth</Form.Label>
+            <Form.Label>Girth (cm)</Form.Label>
             <Form.Control type="text" placeholder="Enter cock girth" onChange={e => setGirth(e.target.value)}/>
           </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicCheckbox">
