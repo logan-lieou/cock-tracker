@@ -1,10 +1,5 @@
 import { useState, useEffect } from 'react'
 import Card from 'react-bootstrap/Card'
-import dynamic from 'next/dynamic'
-
-const DynamicPlot = dynamic(import('./plot'), {
-  ssr: false
-})
 
 function Distro(props) {
   const [rank, setRank] = useState('Iron');
@@ -25,7 +20,6 @@ function Distro(props) {
           Score: {score}
         </Card.Body>
       </Card>
-      <DynamicPlot/>
     </div>
   )
 }
